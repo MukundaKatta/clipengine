@@ -1,0 +1,21 @@
+{
+  "name": "@clipengine/repurposer",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.37.0",
+    "sharp": "^0.33.0",
+    "@clipengine/supabase": "workspace:*",
+    "@clipengine/brand-voice": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}
