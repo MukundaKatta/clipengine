@@ -1,27 +1,41 @@
-# ClipEngine
+# clipengine
 
-> AI Content Repurposing Platform
+**AI content repurposing platform**
 
-## Overview
+![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
 
-ClipEngine transforms long-form content into optimized clips for every social platform. Upload a podcast, webinar, or video and get perfectly formatted clips for TikTok, Instagram Reels, YouTube Shorts, Twitter, and LinkedIn.
-
-## Key Features
-
-- ****
-
-## Tech Stack
-
-Python FastAPI,Claude API,FFmpeg,React,GCP
-
-## Getting Started
-
+## Install
 ```bash
-git clone https://github.com/MukundaKatta/clipengine.git
-cd clipengine
-pip install -e .
+npm install
 ```
 
----
+## Quick Start
+```typescript
+import { Clipengine } from "./clipengine";
+const instance = new Clipengine()
+const r = await instance.process({ input: 'test' })
+```
 
-**Mukunda Katta** · [Officethree Technologies](https://github.com/MukundaKatta/Office3) · 2026
+## CLI
+```bash
+npx tsx src/cli.ts status
+npx tsx src/cli.ts run --input "data"
+```
+
+## API
+| Method | Description |
+|--------|-------------|
+| `process()` | Process |
+| `analyze()` | Analyze |
+| `transform()` | Transform |
+| `validate()` | Validate |
+| `export()` | Export |
+| `get_stats()` | Get stats |
+
+## Test
+```bash
+npx vitest
+```
+
+## License
+(c) 2026 Officethree Technologies. All Rights Reserved.
