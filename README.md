@@ -1,11 +1,15 @@
-# clipengine
+# ClipEngine
 
-Stub project. Described as an "AI content repurposing platform," but the core functionality does not exist.
+AI content repurposing platform that transforms long-form content into optimized clips for multiple platforms.
 
-## What's actually here
+## About
+ClipEngine automates the process of repurposing long-form video and audio content into short-form clips. It identifies key moments, generates platform-specific edits, and optimizes content for distribution across social media channels - helping creators maximize the reach of their content.
 
-A stub class in `src/core.py` (or `src/core.ts`) with generic methods that all return `{"ok": True}` without doing any real work. Uses only standard library imports. There is no content repurposing, no video processing, no AI integration, and no platform.
+## Tech Stack
+- Python
+- Media processing libraries
+- LLM integration for content analysis
+- Click/Typer (CLI)
 
 ## Status
-
-Scaffolding only. None of the advertised content repurposing functionality exists.
+Active development - core architecture and project structure established.
