@@ -1,41 +1,11 @@
 # clipengine
 
-**AI content repurposing platform**
+Stub project. Described as an "AI content repurposing platform," but the core functionality does not exist.
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
+## What's actually here
 
-## Install
-```bash
-npm install
-```
+A stub class in `src/core.py` (or `src/core.ts`) with generic methods that all return `{"ok": True}` without doing any real work. Uses only standard library imports. There is no content repurposing, no video processing, no AI integration, and no platform.
 
-## Quick Start
-```typescript
-import { Clipengine } from "./clipengine";
-const instance = new Clipengine()
-const r = await instance.process({ input: 'test' })
-```
+## Status
 
-## CLI
-```bash
-npx tsx src/cli.ts status
-npx tsx src/cli.ts run --input "data"
-```
-
-## API
-| Method | Description |
-|--------|-------------|
-| `process()` | Process |
-| `analyze()` | Analyze |
-| `transform()` | Transform |
-| `validate()` | Validate |
-| `export()` | Export |
-| `get_stats()` | Get stats |
-
-## Test
-```bash
-npx vitest
-```
-
-## License
-(c) 2026 Officethree Technologies. All Rights Reserved.
+Scaffolding only. None of the advertised content repurposing functionality exists.
